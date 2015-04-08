@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD2EEF81AD57A49009790B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD2EEF71AD57A49009790B1 /* main.m */; };
+		EFD2EEFB1AD57A49009790B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD2EEFA1AD57A49009790B1 /* AppDelegate.m */; };
+		EFD2EEFE1AD57A49009790B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD2EEFD1AD57A49009790B1 /* ViewController.m */; };
+		EFD2EF011AD57A49009790B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD2EEFF1AD57A49009790B1 /* Main.storyboard */; };
+		EFD2EF031AD57A49009790B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD2EF021AD57A49009790B1 /* Images.xcassets */; };
+		EFD2EF061AD57A49009790B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD2EF041AD57A49009790B1 /* LaunchScreen.xib */; };
+		EFD2EF121AD57A49009790B1 /* GoogleCastTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD2EF111AD57A49009790B1 /* GoogleCastTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD2EF0C1AD57A49009790B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD2EEEA1AD57A49009790B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD2EEF11AD57A49009790B1;
+			remoteInfo = GoogleCastTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD2EEF21AD57A49009790B1 /* GoogleCastTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCastTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2EEF61AD57A49009790B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD2EEF71AD57A49009790B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFD2EEF91AD57A49009790B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFD2EEFA1AD57A49009790B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFD2EEFC1AD57A49009790B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFD2EEFD1AD57A49009790B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFD2EF001AD57A49009790B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD2EF021AD57A49009790B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFD2EF051AD57A49009790B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFD2EF0B1AD57A49009790B1 /* GoogleCastTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleCastTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2EF101AD57A49009790B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD2EF111AD57A49009790B1 /* GoogleCastTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleCastTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD2EEEF1AD57A49009790B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2EF081AD57A49009790B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD2EEE91AD57A49009790B1 = {
+			isa = PBXGroup;
+			children = (
+				EFD2EEF41AD57A49009790B1 /* GoogleCastTest */,
+				EFD2EF0E1AD57A49009790B1 /* GoogleCastTestTests */,
+				EFD2EEF31AD57A49009790B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD2EEF31AD57A49009790B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2EEF21AD57A49009790B1 /* GoogleCastTest.app */,
+				EFD2EF0B1AD57A49009790B1 /* GoogleCastTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD2EEF41AD57A49009790B1 /* GoogleCastTest */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2EEF91AD57A49009790B1 /* AppDelegate.h */,
+				EFD2EEFA1AD57A49009790B1 /* AppDelegate.m */,
+				EFD2EEFC1AD57A49009790B1 /* ViewController.h */,
+				EFD2EEFD1AD57A49009790B1 /* ViewController.m */,
+				EFD2EEFF1AD57A49009790B1 /* Main.storyboard */,
+				EFD2EF021AD57A49009790B1 /* Images.xcassets */,
+				EFD2EF041AD57A49009790B1 /* LaunchScreen.xib */,
+				EFD2EEF51AD57A49009790B1 /* Supporting Files */,
+			);
+			path = GoogleCastTest;
+			sourceTree = "<group>";
+		};
+		EFD2EEF51AD57A49009790B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2EEF61AD57A49009790B1 /* Info.plist */,
+				EFD2EEF71AD57A49009790B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFD2EF0E1AD57A49009790B1 /* GoogleCastTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2EF111AD57A49009790B1 /* GoogleCastTestTests.m */,
+				EFD2EF0F1AD57A49009790B1 /* Supporting Files */,
+			);
+			path = GoogleCastTestTests;
+			sourceTree = "<group>";
+		};
+		EFD2EF0F1AD57A49009790B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2EF101AD57A49009790B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD2EEF11AD57A49009790B1 /* GoogleCastTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD2EF151AD57A49009790B1 /* Build configuration list for PBXNativeTarget "GoogleCastTest" */;
+			buildPhases = (
+				EFD2EEEE1AD57A49009790B1 /* Sources */,
+				EFD2EEEF1AD57A49009790B1 /* Frameworks */,
+				EFD2EEF01AD57A49009790B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCastTest;
+			productName = GoogleCastTest;
+			productReference = EFD2EEF21AD57A49009790B1 /* GoogleCastTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD2EF0A1AD57A49009790B1 /* GoogleCastTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD2EF181AD57A49009790B1 /* Build configuration list for PBXNativeTarget "GoogleCastTestTests" */;
+			buildPhases = (
+				EFD2EF071AD57A49009790B1 /* Sources */,
+				EFD2EF081AD57A49009790B1 /* Frameworks */,
+				EFD2EF091AD57A49009790B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD2EF0D1AD57A49009790B1 /* PBXTargetDependency */,
+			);
+			name = GoogleCastTestTests;
+			productName = GoogleCastTestTests;
+			productReference = EFD2EF0B1AD57A49009790B1 /* GoogleCastTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD2EEEA1AD57A49009790B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					EFD2EEF11AD57A49009790B1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EFD2EF0A1AD57A49009790B1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EFD2EEF11AD57A49009790B1;
+					};
+				};
+			};
+			buildConfigurationList = EFD2EEED1AD57A49009790B1 /* Build configuration list for PBXProject "GoogleCastTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD2EEE91AD57A49009790B1;
+			productRefGroup = EFD2EEF31AD57A49009790B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD2EEF11AD57A49009790B1 /* GoogleCastTest */,
+				EFD2EF0A1AD57A49009790B1 /* GoogleCastTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD2EEF01AD57A49009790B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2EF011AD57A49009790B1 /* Main.storyboard in Resources */,
+				EFD2EF061AD57A49009790B1 /* LaunchScreen.xib in Resources */,
+				EFD2EF031AD57A49009790B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2EF091AD57A49009790B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD2EEEE1AD57A49009790B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2EEFE1AD57A49009790B1 /* ViewController.m in Sources */,
+				EFD2EEFB1AD57A49009790B1 /* AppDelegate.m in Sources */,
+				EFD2EEF81AD57A49009790B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2EF071AD57A49009790B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2EF121AD57A49009790B1 /* GoogleCastTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD2EF0D1AD57A49009790B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD2EEF11AD57A49009790B1 /* GoogleCastTest */;
+			targetProxy = EFD2EF0C1AD57A49009790B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD2EEFF1AD57A49009790B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD2EF001AD57A49009790B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD2EF041AD57A49009790B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD2EF051AD57A49009790B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD2EF131AD57A49009790B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD2EF141AD57A49009790B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD2EF161AD57A49009790B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleCastTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFD2EF171AD57A49009790B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleCastTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFD2EF191AD57A49009790B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleCastTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleCastTest.app/GoogleCastTest";
+			};
+			name = Debug;
+		};
+		EFD2EF1A1AD57A49009790B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleCastTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleCastTest.app/GoogleCastTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD2EEED1AD57A49009790B1 /* Build configuration list for PBXProject "GoogleCastTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2EF131AD57A49009790B1 /* Debug */,
+				EFD2EF141AD57A49009790B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD2EF151AD57A49009790B1 /* Build configuration list for PBXNativeTarget "GoogleCastTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2EF161AD57A49009790B1 /* Debug */,
+				EFD2EF171AD57A49009790B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFD2EF181AD57A49009790B1 /* Build configuration list for PBXNativeTarget "GoogleCastTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2EF191AD57A49009790B1 /* Debug */,
+				EFD2EF1A1AD57A49009790B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD2EEEA1AD57A49009790B1 /* Project object */;
+}
